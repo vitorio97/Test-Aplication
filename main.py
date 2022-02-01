@@ -3,9 +3,9 @@ Aplication of recent earthquake
 Modularitation with Function
 Modularitation with Package
 """
-from EartquakeNow import extraction_data, viewdata
+import EartquakeNow
 
 if __name__ == "__main__":
     print(("main app"))
-    result = extraction_data()
-    viewdata(result)
+    result = EartquakeNow.extraction_data()
+    EartquakeNow.viewdata(result)
